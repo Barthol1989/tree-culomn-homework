@@ -1,0 +1,79 @@
+.row {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box; 
+    margin:20px;
+  }
+
+  div#box1{
+    background-color:#b5da92;
+    border: 1px solid black;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff0202;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  p {
+    background-color:#b5da92;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 150px;
+    color:black;
+    font-family: fantasy;
+    font-size: 120%;
+    overflow: auto;
+  }
+
+  
+  #p1 {
+    background-color: white;
+    border: 1px solid black;
+    color:red;
+    position: relative;
+    width: 20%;
+    text-align: center;
+    height:25px;
+    top: 0%;
+    left: 80%;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  #p2 {
+    background-color: rgb(138, 98, 98);
+    border: 1px solid black;
+    color:black;
+    position: relative;
+    width:20%;
+    text-align: center;
+    height:25px;
+    top: 0%;
+    left: 80%;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  #p3 {
+    background-color: rgb(151, 0, 139);
+    border: 1px solid black;
+    color:rgb(255, 255, 255);
+    position: relative;
+    width:20%;
+    text-align: center;
+    height:25px;
+    top: 0%;
+    left: 80%;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+ 
