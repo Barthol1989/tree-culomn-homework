@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #75d626;
+  border-radius: 0;
+  border: 3px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.navbar-brand h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration:black;
+  padding-bottom: 25px;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: rgba(87, 87, 87, 0.692);
+  color:rgb(255, 255, 255);
+}
+#nav-list a span {
+  font-size: 1.8em;
+  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  position: relative ;
+  top:-20px;
+  right:2%;
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+#menu-title{
+  padding-bottom: 30px;
+}
+h3, #menu-title{
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.drift{
+  background-color: rgb(218, 255, 148);
+  padding:15px;
+}
+p {
+  overflow: hidden;
+}
+
+.container .drift {
+  box-shadow: 0 0 50px #000000;
+}
+/* END HOME PAGE */
+
+
+/********** Medium devices only **********/
+@media (min-width: 991px) {
+  /* Header */
+  #collapsable-nav a span {
+    display:none;
+  }
+  #nav-list a:hover{
+    display: none;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #collapsable-nav a span {
+    display:none;
+  }
+  #nav-list a:hover{
+    display:none;
+  }
+  .container .jumbotron {
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    background-color: rgb(218, 255, 148);
+    font-size: 1.2em;
+    border-bottom:1px solid black;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+  /* End Header */
